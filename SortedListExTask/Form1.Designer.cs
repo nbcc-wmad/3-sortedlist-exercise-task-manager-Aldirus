@@ -56,6 +56,7 @@
             this.btnRemoveTask.TabIndex = 15;
             this.btnRemoveTask.Text = "Remove Task";
             this.btnRemoveTask.UseVisualStyleBackColor = true;
+            this.btnRemoveTask.Click += new System.EventHandler(this.btnRemoveTask_Click);
             // 
             // lstTasks
             // 
@@ -64,6 +65,7 @@
             this.lstTasks.Name = "lstTasks";
             this.lstTasks.Size = new System.Drawing.Size(188, 95);
             this.lstTasks.TabIndex = 14;
+            this.lstTasks.SelectedIndexChanged += new System.EventHandler(this.lstTasks_SelectedIndexChanged);
             // 
             // btnPrintAll
             // 
@@ -81,6 +83,7 @@
             this.lblTaskDetails.Name = "lblTaskDetails";
             this.lblTaskDetails.Size = new System.Drawing.Size(188, 57);
             this.lblTaskDetails.TabIndex = 12;
+            this.lblTaskDetails.Click += new System.EventHandler(this.lblTaskDetails_Click);
             // 
             // btnAddTask
             // 
@@ -90,6 +93,7 @@
             this.btnAddTask.TabIndex = 11;
             this.btnAddTask.Text = "Add Task";
             this.btnAddTask.UseVisualStyleBackColor = true;
+            this.btnAddTask.Click += new System.EventHandler(this.btnAddTask_Click);
             // 
             // txtTask
             // 
